@@ -1,7 +1,9 @@
 libgsttranscoder-1.0.so.0:gst_transcoder_error_get_name
 libgsttranscoder-1.0.so.0:gst_transcoder_error_get_type
+libgsttranscoder-1.0.so.0:gst_transcoder_error_quark
 libgsttranscoder-1.0.so.0:gst_transcoder_g_main_context_signal_dispatcher_get_type
 libgsttranscoder-1.0.so.0:gst_transcoder_g_main_context_signal_dispatcher_new
+libgsttranscoder-1.0.so.0:gst_transcoder_get_avoid_reencoding
 libgsttranscoder-1.0.so.0:gst_transcoder_get_dest_uri
 libgsttranscoder-1.0.so.0:gst_transcoder_get_duration
 libgsttranscoder-1.0.so.0:gst_transcoder_get_pipeline
@@ -13,6 +15,7 @@ libgsttranscoder-1.0.so.0:gst_transcoder_new
 libgsttranscoder-1.0.so.0:gst_transcoder_new_full
 libgsttranscoder-1.0.so.0:gst_transcoder_run
 libgsttranscoder-1.0.so.0:gst_transcoder_run_async
+libgsttranscoder-1.0.so.0:gst_transcoder_set_avoid_reencoding
 libgsttranscoder-1.0.so.0:gst_transcoder_set_cpu_usage
 libgsttranscoder-1.0.so.0:gst_transcoder_set_position_update_interval
 libgsttranscoder-1.0.so.0:gst_transcoder_signal_dispatcher_get_type

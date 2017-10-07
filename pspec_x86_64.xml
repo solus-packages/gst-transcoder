@@ -2,8 +2,8 @@
     <Source>
         <Name>gst-transcoder</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>LGPL-2.1</License>
         <PartOf>multimedia.library</PartOf>
@@ -20,10 +20,20 @@
         <PartOf>multimedia.library</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/girepository-1.0/GstTranscoder-1.0.typelib</Path>
-            <Path fileType="library">/usr/lib64/gstreamer-1.0/libgsttranscoderplugin.so</Path>
+            <Path fileType="library">/usr/lib64/girepository-1.0/GstTranscoder-1.0.typelib</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-1.0/libgsttranscode.so</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
             <Path fileType="data">/usr/share/gir-1.0/GstTranscoder-1.0.gir</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/device/dvd.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/avi.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/flv.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/mkv.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/mp3.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/mp4.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/oga.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/ogv.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/file-extension/webm.gep</Path>
+            <Path fileType="data">/usr/share/gstreamer-1.0/encoding-profiles/online-services/youtube.gep</Path>
         </Files>
     </Package>
     <Package>
@@ -33,7 +43,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">gst-transcoder</Dependency>
+            <Dependency release="2">gst-transcoder</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -42,12 +52,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-08-07</Date>
-            <Version>1.8.2</Version>
+        <Update release="2">
+            <Date>2017-09-22</Date>
+            <Version>1.12.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
