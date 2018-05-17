@@ -1,8 +1,8 @@
 name       : gst-transcoder
-version    : 1.12.2
-release    : 2
+version    : 1.14.0
+release    : 3
 source     :
-    - https://github.com/pitivi/gst-transcoder/archive/1.12.2.tar.gz : a9f67fbe5113d2da54b9754ba02747eec8e68f90a386e49c003a88d174aedc32
+    - https://github.com/pitivi/gst-transcoder/archive/1.14.0.tar.gz : 9861dd51d726fc59511f86e85249e31511ebf0d1744a1100881fc1df63af3839
 license    : LGPL-2.1
 component  : multimedia.library
 summary    : GStreamer Transcoding API
